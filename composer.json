@@ -1,0 +1,36 @@
+{
+    "name": "ftsl/composer-test",
+    "description": "Um teste de criação de pacotes",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+	"php": ">=5.5",
+        "andrebian/brazilian-helpers": "dev-master",
+        "andrebian/pag_seguro": "dev-master",
+	"php-excel-reader": "2.21"
+    },
+    "require-dev":{
+        "kevinlebrun/slug.php": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "extras": {
+        "installer-paths": {
+	    "Plugin/PagSeguro": ["andrebian/pag_seguro"]
+        }
+    },
+    "repositories": [
+        {   
+            "type": "package",
+            "package": {
+                "name": "php-excel-reader",
+                "version": "2.21",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://php-excel-reader.googlecode.com/files/php-excel-reader-2.21.zip"
+                }
+            }
+        }
+
+    ]
+
+}
