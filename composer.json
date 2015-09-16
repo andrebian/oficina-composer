@@ -3,6 +3,7 @@
     "description": "Um teste de criação de pacotes",
     "license": "MIT",
     "type": "library",
+    "version": "1",
     "require": {
 	"php": ">=5.5",
         "andrebian/brazilian-helpers": "dev-master"
