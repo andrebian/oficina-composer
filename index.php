@@ -5,6 +5,7 @@ ini_set('display_errors', true);
 error_reporting(E_ALL);
 
 require_once "./vendor/autoload.php";
+require './vendor/ftsl/src/FTSL/Teste.php';
 
 use Slug\Slugifier;
 use BrazilianHelper\StateHelper as Teste;
